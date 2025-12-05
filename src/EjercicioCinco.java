@@ -64,7 +64,7 @@ public class EjercicioCinco {
                 System.out.print("\nRANGO DE " + rangoMenor + " - " + rangoMayor + ":  ");
             }
             for(int j =0;j<estudiantes.length;j++){
-                if (estudiantes[j]<rangoMayor && estudiantes[j] >= rangoMenor) {
+                if (estudiantes[j]<=rangoMayor && estudiantes[j] > rangoMenor) {
                     System.out.print("*");
                 }
             }
